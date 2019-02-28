@@ -8,13 +8,15 @@ Para colaborar en un proyecto GitHub, se deben seguir estos pasos:
 1. Fork del repositorio
 2. Clonar el repositorio
 3. Actualizar la rama master
-4. Crear una rama
-5. Hacer los cambios
-6. Hacer un Pull Request
+4. Modificar remote
+5. Crear una rama
+6. Hacer los cambios
+7. Hacer un Pull Request
 
 ```sh
 git clone https://github.com/User/NombreRepo.git
 git remote -v
+git remote rename origin fork
 git remote add upstream https://github.com/User/RepoOriginal(Forkeado)
 git pull -r upstream master
 git checkout -b feature-nombre-rama
