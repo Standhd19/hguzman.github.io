@@ -6,7 +6,11 @@ title: Colaborar en un proyecto en GitHub
 Para colaborar en un proyecto GitHub, se deben seguir estos pasos:
 
 1. **Fork del repositorio:** Realiza un copia exacta del repositorio en el perfil del usuario colaborador
-2. **Clonar el repositorio:** `git clone https://github.com/User/NombreRepo.git
+2. **Clonar el repositorio:** 
+  `
+  git clone https://github.com/User/NombreRepo.git
+  `
+  
 3. Actualizar la rama master
 4. Modificar remote
 5. Crear una rama
