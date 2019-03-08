@@ -45,6 +45,16 @@ Para colaborar en un proyecto GitHub, se deben seguir estos pasos:
 
 8. **Solicitar que se incorporen cambios:** Entramos a nuestro usuario y reealizamos una solicitud de incorporación del codigo al proyecto original utilizando la opción Pull Request
 
+9. **Eliminar rama en local:** Para eliminar una rama despues que fue incorporada por el propietario del repositorio, usaremos el comando `git branch -d feature-nombre-rama`
+
+> **Nota:** si deseamos eliminarla sin usar el comando merge utilizaremos `git branch -D feature-nombre-rama`
+
+10. **Eliminar rama en repositorio remoto:** Para eliminar una rama que esta en un repositorio remoto usaremos `git push origin --delete feature-nombre-rama`
+
+### Unir Ramas
+
+Para unir ramas dentro de nuestro repositorio local usaremos el comando `git merge feature-nombre-rama`, debemos estar ubicado en la rama que deseamos actualizar
+
 
 <!-- Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
