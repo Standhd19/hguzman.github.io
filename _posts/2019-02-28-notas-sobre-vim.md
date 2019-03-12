@@ -22,3 +22,7 @@ vimtutorial
 ### Realizar Paginación en VIM
 
 Para paginar hacia abajo se usa (page down) `CTRL-D` y para moverse hacia arriba page up `CTRL-U` 
+
+### Abrir el menú para crear y borrar archivos NERDtree
+
+Se debe usar la letra `m`
