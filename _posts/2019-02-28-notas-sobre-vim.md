@@ -18,3 +18,7 @@ Plus normal Commentary maps like `gcc` to comment a line, or `5gcc` to comment 5
 
 Para vel un tutotial en consola
 vimtutorial
+
+### Realizar Paginación en VIM
+
+Para paginar hacia abajo se usa (page down) `CTRL-D` y para moverse hacia arriba page up `CTRL-U` 
