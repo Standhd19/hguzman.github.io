@@ -26,3 +26,7 @@ Para paginar hacia abajo se usa (page down) `CTRL-D` y para moverse hacia arriba
 ### Abrir el menú para crear y borrar archivos NERDtree
 
 Se debe usar la letra `m`
+
+### Escribir despues de una palabra
+
+`wi`o `ea`
