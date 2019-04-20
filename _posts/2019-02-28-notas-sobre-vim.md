@@ -30,3 +30,9 @@ Se debe usar la letra `m`
 ### Escribir despues de una palabra
 
 `wi`o `ea`
+
+### Guardar un archivo como
+
+Para realizar esta actividad, solo se abre el archivo que se va a guardar como y se ejecuta el comando:
+
+`:w %:h/other_filename`
