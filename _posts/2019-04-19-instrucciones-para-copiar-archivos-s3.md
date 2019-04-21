@@ -36,4 +36,4 @@ aws s3 sync test s3://lab01-storage --delete
 aws s3 cp foo.txt  s3://lab01-storage --recursive --exclude "*.log"
 
 ### Comando suado para Sincronizar.
-`aws s3 sync . s3://hguzman-store --delete`
+`aws s3 sync . s3://hguzman-storage --delete`
