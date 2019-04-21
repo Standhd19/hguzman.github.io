@@ -33,4 +33,7 @@ aws s3 sync test/ s3://lab01-storage --recursive
 ### Sincronizar borrando los archivos que ya no estan en el local
 aws s3 sync test s3://lab01-storage --delete
 ### Copiar carpeta - local Remoto
-aws s3 cp foo.txt  s3://lab01-storage --recursive
+aws s3 cp foo.txt  s3://lab01-storage --recursive --exclude "*.log"
+
+### Comando suado para Sincronizar.
+`aws s3 sync CopiaSeguridad/ s3://hguzman-store --delete`
