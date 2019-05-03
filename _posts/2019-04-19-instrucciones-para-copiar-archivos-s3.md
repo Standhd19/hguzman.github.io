@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instrucciones para copiar archivos en S3
+title: Instrucciones para copiar archivos en S3.
 ---
 
 En la actualidad pago los servicios de Amason AWS para mantener el proyect fleteo.co en funcionamiento.

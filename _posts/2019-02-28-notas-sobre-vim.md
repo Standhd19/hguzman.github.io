@@ -36,3 +36,9 @@ Se debe usar la letra `m`
 Para realizar esta actividad, solo se abre el archivo que se va a guardar como y se ejecuta el comando:
 
 `:w %:h/other_filename`
+
+### Plegado de lineas de codigo
+
+Para realizar el pegado se deve estar en modo visual y seleccionar el codigo que se desea plegar
+`zf`
+y para colocarlo como estaba se usa `za`
