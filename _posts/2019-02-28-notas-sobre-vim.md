@@ -42,3 +42,14 @@ Para realizar esta actividad, solo se abre el archivo que se va a guardar como y
 Para realizar el pegado se deve estar en modo visual y seleccionar el codigo que se desea plegar
 `zf`
 y para colocarlo como estaba se usa `za`
+
+### Realizar busqueda
+
+Para realizar una busqueda se usa [fugitive](https://github.com/tpope/vim-fugitive).
+La busqueda se realiza así: 
+:Ggrep hola
+
+Para moverse por los archivos con resultados se usa:
+:cnext
+:cprev
+:copen
