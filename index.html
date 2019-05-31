@@ -1,18 +1,286 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Henry Guzmán | Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <!--[if lt IE 9]>
+            <script src="/js/vendor/html5shiv.min.js"></script>
+        <![endif]-->
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+    </head>
+    <body>
+        <!-- if the user has javascript disabled they can still use the menu -->
+        <noscript>
+            <div class="no-js-menu">
+                <ul>
+                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                    <li><i class="fa fa-user"></i><a href="author.html">Henry Guzmán</a></li>
+                <!--    <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
+                    <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>-->
+                    <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+                   <!-- <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
+                    <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
+                    <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
+                    <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>-->
+                </ul>
+            </div>
+        </noscript>
+        <!-- end no script -->
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+        <main class="container left-container">
+            <div class="row">
+
+                <div id="menu-target">
+                    <ul>
+                        <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                        <li><i class="fa fa-user"></i><a href="author.html">Henry Guzmán</a></li>
+                    <!--    <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
+                        <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>-->
+                        <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <hr>
+                   <!-- <ul>
+                        <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
+                        <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
+
+                        <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
+                        <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>-->
+                    </ul>
+                </div>
+
+                <section class="sidebar col-lg-5 col-12" style="background-image: url(img/logosena.png">
+
+                    <span class="menu-trigger animated fadeInDown">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+
+                    <div class="site-info">
+                        <div class="primary-info">
+                            <h1 style="color: red">Escritor</h1>
+                            <p style="color: red">aqui estan los post mas recientes <a href="post.html"> </p>
+
+                        <!--    <p>Content is king</p>
+                        </div>
+                        <div class="secondary-info">
+                            <p>
+                                <a class="btn btn-primary" href="#"><i class="fa fa-user-plus"></i>Join Our Newsletter</a>
+                            </p>-->
+                        </div>
+                    </div>
+                </section><!-- end sidebar -->
+
+                <section class="col-lg-7 col-12 ml-auto main-content">
+
+                    <div class="sub-nav">
+                        <a href="#" class="select-posts active">Posts</a>
+                       <!-- <a href="#" class="select-categories">Categories</a>-->
+                    </div>
+
+                    <div class="home-page-posts animated fadeIn ">
+
+                        <article class="post">
+                            <div class="post-preview col-10  no-gutter">
+                                <h2><a href="Instrucciones.html">Instrucciones para copiar archivos en S3.</a></h2>
+
+                                <p>En la actualidad pago los servicios de Amason AWS para mantener el proyect fleteo.co en funcionamiento.</p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a> <!--in <a href="category.html">Storytime</a>--> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2  no-gutter">
+                                <img src="img/hen.jpg" class="user-icon" alt="user-image">
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="borrarunarchivo.html">Borrar un archivo o directorio que se encuentra dentro de Time Machine</a></h2>
+                                <p>En el día de hoy me encontre con el problema de tratar de borrar un archivo que tenia en un dico duro que use para realizar una con Time Machine.</p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a>  <!--in <a href="category.html">Storytime</a>-->  <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 9 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="notassobre.html">Notas sobre VIM</a></h2>
+                                <p>Comando para remplazar información hasta un ). </p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a>  <!--in <a href="category.html">Storytime</a>-->  <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 5 minute read
+                                </p>
+                            </div>
+
+                            <div class="col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="Actividaddragon.html">Actividad del dragon</a></h2>
+                                <p>Actividad para trabajar en Word descargar desde Dragon</p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a>  <!--in <a href="category.html">Storytime</a>--> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 2 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="Ignorarunarchivo.html">Ignorar un archivo despues de un push en GitHub</a></h2>
+                                <p>Estoy desarrollando un software con Ruby on Rails que maneja imagenes, me gusta usar <a href="https://github.com/" target="_blank">GitHub</a> para mantener mi codígo actualizado. Despues de varios commits y push me pude dar cuenta que en el archivo .gitignore NO incluí la linea para evitar que las imagenes de ejemplo fueran objeto de control de codigo. </p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a>  <!--in <a href="category.html">Storytime</a>--> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 3 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="enviarunarchivo.html">Enviar un archivo desde mac hasta VMware fusion8</a></h2>
+                                <p>Soy nuevo usando software de virtualización, pero Juan Roberto Gonzalez, amigo y empresario Barranquillero me regalo una licencia del Software VMware Fusion 8 para usarla en mi macbook pro.</p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a> <!--in <a href="category.html">Storytime</a>-->  <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 2 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+                        <article class="post">
+                            <div class="post-preview col-10 no-gutter">
+                                <h2><a href="colaborarproyecto.html">Colaborar en un proyecto en GitHub
+</a></h2>
+                                <p>Para colaborar en un proyecto GitHub, se deben seguir estos pasos:
+
+. </p>
+
+                                <p class="meta">
+                                    <a href="author.html">Henry Guzmán</a>  <!--in <a href="category.html">Storytime</a>-->  <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 12 minute read
+                                </p>
+                            </div>
+
+                            <div class=" col-2 no-gutter">
+                                <img src="img/hen.jpg" class="user-icon"  alt="user-image">
+                            </div>
+                        </article>
+                    </div><!-- Home page posts -->
+
+                    <div class="home-page-categories hide animated fadeIn ">
+                        <div class="category row">
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Easy Living</h2>
+                                    <a href="category.html"><img src="img/cover-2.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Adventure</h2>
+                                    <a href="category.html"><img src="img/cover-4.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Storytime</h2>
+                                    <a href="category.html"><img src="img/cover-6.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Open Roads</h2>
+                                     <a href="category.html"><img src="img/cover-9.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Gaming</h2>
+                                    <a href="category.html"><img src="img/cover-1.jpg" alt="category-image" ></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>City Life</h2>
+                                     <a href="category.html"><img src="img/cover-3.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Rave Culture</h2>
+                                     <a href="category.html"><img src="img/cover-5.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Photography</h2>
+                                    <a href="category.html"><img src="img/cover-7.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Animal Kingdom</h2>
+                                     <a href="category.html"><img src="img/cover-8.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Beach</h2>
+                                    <a href="category.html"><img src="img/cover-10.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Climbing</h2>
+                                     <a href="category.html"><img src="img/cover-11.jpg" alt="category-image"></a>
+                                </div>
+
+                                <div class="category-preview col-6 col-sm-4  ">
+                                    <h2>Mystery</h2>
+                                     <a href="category.html"><img src="img/cover-12.jpg" alt="category-image"></a>
+                                </div>
+
+                        </div>
+                    </div>
+                    <!--
+                    <footer class="split-footer">
+                        <a href="post.html">About</a>
+                        <i class="link-spacer"></i>
+                        <a href="post.html">Writer 2017</a>
+                    </footer>-->
+
+                </section><!-- main content -->
+
+            </div> <!--/row -->
+
+        </main> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/jquery.jpanelmenu.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/fastclick.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
